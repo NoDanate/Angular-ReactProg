@@ -21,6 +21,7 @@ import {CurrencyPipe, DecimalPipe, LowerCasePipe, PercentPipe, SlicePipe, UpperC
     <div>slice: {{ str | slice:-8 }}</div>
     <div>slice: {{ num | number:'3.5-5': 'ru'}}</div>
     <div>slice: {{ money | currency: 'RUB'}}</div>
+
     `
 })
 export class PipesTestComponent {
